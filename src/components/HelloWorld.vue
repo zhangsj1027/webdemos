@@ -107,6 +107,14 @@ export default {
       lists: ['a', 'b', 'c', 'd'],
     };
   },
+  created() {
+    this.test();
+  },
+  methods: {
+    test() {
+      console.log('add commit-msg');
+    },
+  },
 };
 </script>
 
